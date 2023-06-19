@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2F51F5366E08ED730FB86E18 /* Pods_Foodapp_FoodappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2AF3E6906E9990D23B73C4 /* Pods_Foodapp_FoodappUITests.framework */; };
-		3A7674322A3A74BC00A94BC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A7674312A3A74BC00A94BC1 /* GoogleService-Info.plist */; };
 		3A7674342A3A760B00A94BC1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7674332A3A760B00A94BC1 /* Item.swift */; };
 		3A7674362A3AEC3A00A94BC1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7674352A3AEC3A00A94BC1 /* ItemView.swift */; };
 		3A76743B2A3B09C400A94BC1 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76743A2A3B09C400A94BC1 /* Cart.swift */; };
@@ -53,7 +52,6 @@
 /* Begin PBXFileReference section */
 		039D67D25F4250902B5063A5 /* Pods-Foodapp-FoodappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodapp-FoodappUITests.debug.xcconfig"; path = "Target Support Files/Pods-Foodapp-FoodappUITests/Pods-Foodapp-FoodappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C35F48E8356A78D0D5F049A /* Pods-Foodapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodapp.release.xcconfig"; path = "Target Support Files/Pods-Foodapp/Pods-Foodapp.release.xcconfig"; sourceTree = "<group>"; };
-		3A7674312A3A74BC00A94BC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A7674332A3A760B00A94BC1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3A7674352A3AEC3A00A94BC1 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		3A76743A2A3B09C400A94BC1 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 		3AC9527C2A07CFDA0033E213 /* Foodapp */ = {
 			isa = PBXGroup;
 			children = (
-				3A7674312A3A74BC00A94BC1 /* GoogleService-Info.plist */,
 				3AB0F8062A3A6CD20020A65D /* com.apple.uikit.inputalternatives.plist */,
 				3AEF45682A07D05D0004AF46 /* ViewModel */,
 				3AEF45672A07D04C0004AF46 /* Model */,
@@ -343,7 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB0F8072A3A6CD20020A65D /* com.apple.uikit.inputalternatives.plist in Resources */,
-				3A7674322A3A74BC00A94BC1 /* GoogleService-Info.plist in Resources */,
 				3AC952852A07CFDB0033E213 /* Preview Assets.xcassets in Resources */,
 				3AC952822A07CFDB0033E213 /* Assets.xcassets in Resources */,
 			);
